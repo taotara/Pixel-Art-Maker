@@ -2,9 +2,34 @@ body {
     text-align: center;
 }
 
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.75rem;
+    font-size: 12px;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none; }
+  .btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); }
+
+.content{
+    padding-top: 120px; 
+}
+
 h1 {
     font-family: Monoton;
-    font-size: 70px;
+    font-size: 50px;
     margin: 0.2em;
 }
 
@@ -36,5 +61,21 @@ td {
 }
 
 input[type=number] {
-    width: 6em;
+    padding: 0.5rem 0.5rem;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 0.3rem;
+}
+.top {
+    margin: 0;
+    background: white;
+    opacity: 0.9;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; 
 }
