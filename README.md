@@ -1,16 +1,7 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+This is an one page html/javascript application which generates art canvas based on the users unput on the grid input panel.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+This application can be use to generate pixel images with different colors.
 
-## Instructions
-
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+https://taotara.github.io/Pixel-Art-Maker/
